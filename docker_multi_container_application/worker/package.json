@@ -1,0 +1,25 @@
+{
+  "name": "worker",
+  "version": "1.0.0",
+  "description": "test fibonacci for docker multicontainer test",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "docker",
+    "react",
+    "express",
+    "node",
+    "postgres"
+  ],
+  "author": "vinay",
+  "license": "MIT",
+
+  "dependencies": {
+    "nodemon": "2.0.19",
+    "redis": "4.2.0"
+  }
+}
